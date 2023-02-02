@@ -5,7 +5,51 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+
 body {
     font-family: 'Fredoka', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    color: #E53170;
+    margin: 20px 0 40px 0;
+}
+
+.container {
+    width: 80%;
+    height: 100px;
+    max-width: 1100px;
+    margin: 0px auto;
+    text-align: center;
+    
+}
+
+.row { 
+    margin-top: 40px;
+    
+}
+.first-row {
+    float: left;
+    width: calc(100% / 3 - 20px);
+    padding: 10px;
+    background-color: #0F0E17;
+    color: white;
+    margin: 0 20px 30px 0;
+   
+}
+
+.clear-fix::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+img {
+    height: 50%;
+    width: 100px;
+    float: left;
 }
 
